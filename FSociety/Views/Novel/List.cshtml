@@ -1,0 +1,19 @@
+﻿@using FSociety.Domain.Entities
+@model IEnumerable<Novel>
+
+@{
+                /**/
+
+                ViewBag.Title = "Романы";
+}
+
+@foreach (var p in @Model)
+{
+    <div>
+        <h3>@p.Name</h3>
+        <p>@p.Сontent</p>
+    </div>
+}
+@*<div>
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>*@
