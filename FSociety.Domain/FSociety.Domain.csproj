@@ -86,6 +86,10 @@
     <Compile Include="Migrations\201806141746210_Add-Users.Designer.cs">
       <DependentUpon>201806141746210_Add-Users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806261710292_AddUserRef.cs" />
+    <Compile Include="Migrations\201806261710292_AddUserRef.Designer.cs">
+      <DependentUpon>201806261710292_AddUserRef.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201806141746210_Add-Users.resx">
       <DependentUpon>201806141746210_Add-Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806261710292_AddUserRef.resx">
+      <DependentUpon>201806261710292_AddUserRef.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

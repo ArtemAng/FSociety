@@ -52,6 +52,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -166,6 +167,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NovelController.cs" />
+    <Compile Include="Controllers\Novels2Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -222,6 +224,11 @@
     <Content Include="Views\Novels\Details.cshtml" />
     <Content Include="Views\Novels\Edit.cshtml" />
     <Content Include="Views\Novels\Index.cshtml" />
+    <Content Include="Views\Novels2\Create.cshtml" />
+    <Content Include="Views\Novels2\Delete.cshtml" />
+    <Content Include="Views\Novels2\Details.cshtml" />
+    <Content Include="Views\Novels2\Edit.cshtml" />
+    <Content Include="Views\Novels2\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
