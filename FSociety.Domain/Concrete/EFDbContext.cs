@@ -29,9 +29,9 @@ namespace FSociety.Domain.Concrete
 
         public DbSet<Novel> Novels { get; set; }
 
-        public void SaveChanges()
+        public static EFDbContext Create()
         {
-            throw new NotImplementedException();
+            return new EFDbContext();
         }
     }
 }

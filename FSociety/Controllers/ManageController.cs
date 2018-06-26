@@ -6,9 +6,10 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using WebApplication2.Models;
+using FSociety.Models;
+using Microsoft.Owin.Host.SystemWeb;
 
-namespace WebApplication2.Controllers
+namespace FSociety.Controllers
 {
     [Authorize]
     public class ManageController : Controller
