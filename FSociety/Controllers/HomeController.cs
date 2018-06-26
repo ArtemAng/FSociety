@@ -10,6 +10,7 @@ namespace FSociety.Controllers
     {
         public ActionResult Index()
         {
+            var s = "dfsdfsdfsdfs";
             return View();
         }
 
